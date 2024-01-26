@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>IMATECH REPOSITORY</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to Imatech Repository!</h1>
+	</header>
+	<nav>
+		<ul>
+		<li><a href="Imatech Repository.html">Home</a>
+			
+			<ul>
+				<li><a href="Manilateam.html">Manila Team</a></li>
+				<li><a href="NLteam.html">Netherland Team</a></li>
+			</ul>
+		</li>
+		<li><a href="#Geninstruction">General Instructions</a>
+			<ul>
+				<li><a href="Terminologies.html">Terminologies</a></li>
+				<li><a href="#vessel">Vessel</a></li>
+				<li><a href="#customer">Customer</a></li>
+				<li><a href="#vendor">Vendor</a></li>
+				<li><a href="#contact">Purchasing Contact</a></li>
+				<li><a href="#catalog">Catalogue</a></li>
+			</ul>
+		</li>
+		<li><a href="#workflow">Process Workflow</a>
+			<ul>
+				<li><a href="#Overview">Process Overview</a></li>
+				<li><a href="#RFQ">RFQ Workflow</a></li>
+				<li><a href="#PQI">PQI Workflow</a></li>
+				<li><a href="#RQ">RQ Workflow</a></li>
+				<li><a href="#portal">PORTAL Workflow</a></li>
+				<li><a href="#order">ORDER Workflow</a></li>
+				<li><a href="#cancellation">CANCELLATION Workflow</a></li>
+				<li><a href="#OC">ROC/RSC/RSB/RSN Workflow</a></li>
+				<li><a href="#rejection">REJECTION Workflow</a></li>
+				<li><a href="#UTC">UTC Workflow</a></li>
+				<li><a href="#invcreation">Sales Invoice Creation Workflow</a></li>
+				<li><a href="#invupload">Invoice Upload Workflow</a></li>
+			</ul>
+		</li>
+		<li><a href="#RFQ">0</a></li>
+		<li><a href="#PQI">PQI</a></li>
+		<li><a href="#RQ">RQ</a></li>
+		<li><a href="#Portal">Portal</a></li>
+		<li><a href="#Order">Order</a></li>
+		<li><a href="#Cancellation">Cancellation</a></li>
+		<li><a href="#ROC">ROC</a></li>
+		<li><a href="#Rejection">Rejection</a></li>
+		<li><a href="#RS">RSC/RSB/RSN</a></li>
+		<li><a href="#UTC">UTC</a></li>
+		<li><a href="#InvUpload">Invoice Upload</a></li>
+		<li><a href="#InvCreation">Invoice Creation</a></li>
+		<li><a href="#IHM">IHM</a></li>
+		</ul>
+	</nav>
+	<br><br><br><br><br><br><br><br><br>
+			<h1>ALWAYS THERE TO IMAGINE BETTER <br>TECHNOLOGY</h1> 
+			<h2><b>IMATECH invisions a market that is more in balance.<br>
+				A balance between relationships and balance in power.<br>
+				A market where 'the board', the purchase department and the end users are able to have<br>the results they need(costs) and maintain the quality they seek.<br>
+				A market where ships and rigs operate more stable despite the economical and political<br> circumstances. Supplier within the market that create more sustainable and satisfying <br>results.
+				A whole market more in balance and performing on a better level.</b></h2><br><br><br>
+				<h3>MISSION AND VISION</h3>
+</body>
+</html>

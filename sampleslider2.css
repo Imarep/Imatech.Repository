@@ -1,0 +1,133 @@
+*
+{
+    padding: 0;
+    margin: 10px;
+}
+
+.container-logo
+{
+    margin-right: 100px;
+    margin-left: 300px;
+}
+.logo
+{
+    margin-top: 10px;
+    width: 200px;
+}
+body 
+{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.menu-bar
+{
+    background: rgb(171,219,227);
+    text-align: center;
+    position: fixed;
+
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    margin-right: 800px;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #020841;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #27c3ce;
+    border-radius: 3px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position:absolute;
+    background: #27c3ce;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 0px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width:auto;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #fff
+}
+
+.sub-menu-2
+{
+    display: none;
+
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 110px;
+    background: #27c3ce;
+}
+#header
+{
+    height: 100vh;
+    background-image: url(images/header.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/*----workflow-----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+.container {
+    padding-top: 80px;
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+.swiper {
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}

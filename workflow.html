@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PROCESS WORKFLOW</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="workflow-bar">
+        <div class="active"></div>
+        <nav id="workflow-bar">
+        <ul>
+            <div class="workflow-logo">
+                <img src="images/logo.png" class="bar-logo">
+            </div>	
+            <li><img src="images/back.png"><a href="index.html">Back to Homepage</a>
+            </li>
+        </ul>
+        </nav>
+    </div>
+<!--workflow -->
+<div id="workflow" class="container">
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div id="processworkflow" class="swiper-slide"><img src="images/processworkflow.png"></div>
+          <div id="rfqworkflow" class="swiper-slide"><img src="images/rfqworkflow.png"></div>
+          <div id="pqiworkflow" class="swiper-slide"><img src="images/pqiworkflow.png"></div>
+          <div id="rqworkflow" class="swiper-slide"><img src="images/rqworkflow.png"></div>
+          <div id="portalworkflow" class="swiper-slide"><img src="images/portalworkflow.png"></div>
+          <div id="orderworkflow" class="swiper-slide"><img src="images/orderworkflow1.png"></div>
+          <div id="cancelworkflow" class="swiper-slide"><img src="images/cancelworkflow.png"></div>
+          <div id="rejectionworkflow" class="swiper-slide"><img src="images/rejectionworkflow.png"></div>
+          <div id="utcworkflow" class="swiper-slide"><img src="images/utcworkflow.png"></div>
+          <div id="rocnrscworkflow" class="swiper-slide"><img src="images/rocnrscworkflow.png"></div>
+          <div class="swiper-wrapper" id="rsbworkflow" class="swiper-slide"><img src="images/rsbworkflow.png"></div>
+          <div id="rsnworkflow" class="swiper-slide"><img src="images/rsnworkflow.png"></div>          
+          <div id="invoicecreationworkflow" class="swiper-slide"><img src="images/invoicecreationworkflow.png"></div>
+          <div id="invoiceuploadworkflow" class="swiper-slide"><img src="images/invoiceuploadworkflow.png"></div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+   
+   loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+</body>
+<html
